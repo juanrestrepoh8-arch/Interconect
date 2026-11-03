@@ -65,3 +65,111 @@ section h2 {
 section p {
     margin-bottom: 12px;
 }
+#proyectos article {
+    background-color: #f0f9ff;
+    border-left: 5px solid #0891b2;
+    padding: 20px;
+    margin: 18px 0;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+#proyectos article:hover {
+    transform: translateX(6px);
+    box-shadow: 0 5px 15px rgba(8, 145, 178, 0.15);
+}
+#proyectos h3 {
+    color: #0e7490;
+    margin-bottom: 8px;
+}
+#informacion ul {
+    list-style: none;
+}
+#informacion li {
+    background-color: #f0f9ff;
+    padding: 12px 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border-left: 4px solid #0284c7;
+}
+#informacion strong {
+    color: #075985;
+}
+form div {
+    margin-bottom: 15px;
+}
+ 
+form label {
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 6px;
+    color: #334155;
+}
+form input {
+    width: 100%;
+    padding: 13px;
+    border: 2px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    transition: 0.3s;
+}
+form input:focus {
+    border-color: #0891b2;
+    box-shadow: 0 0 0 3px rgba(8, 145, 178, 0.15);
+}
+form input::placeholder {
+    color: #94a3b8;
+}
+form button {
+    background: linear-gradient(135deg, #0284c7, #0891b2);
+ form button:hover {
+    background: #0f172a;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 12px rgba(15, 23, 42, 0.2);
+}
+hr {
+    border: none;
+    height: 2px;
+    background-color: #cbd5e1;
+}
+footer {
+    background-color: #0f172a;
+    color: #cbd5e1;
+    text-align: center;
+    padding: 25px 15px;
+    margin-top: 40px;
+}
+footer p {
+    margin: 0;
+}
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+    nav ul {
+        flex-direction: column;
+        gap: 5px;
+    }
+    nav a {
+        display: block;
+    }
+    main {
+        margin: 20px auto;
+        padding: 0 12px;
+    }
+    section {
+        padding: 20px;
+    }
+    section h2 {
+        font-size: 1.5rem;
+    }
+}   color: white;
+    border: none;
+    padding: 14px 25px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s;
+}
+ 
