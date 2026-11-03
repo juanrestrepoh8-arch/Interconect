@@ -11,5 +11,21 @@ btnTema.onclick = function() {
         btnTema.textContent = "Modo día";
     }
 };
+ 
+document.body.appendChild(btnTema);
+const btnOcultar = document.createElement("button");
+btnOcultar.textContent = "Ocultar información";
+let visible = true;
+btnOcultar.onclick = function() {
+    visible = !visible;
+    document.querySelectorAll(".panel").forEach(panel => {
+        panel.style.display = visible ? "" : "none";
+    });
+    btnOcultar.textContent = visible
+        ? "Ocultar información"
+        : "Mostrar información";
+};
+document.body.appendChild(btnOcultar);
+ 
 
  
